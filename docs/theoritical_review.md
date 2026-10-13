@@ -263,6 +263,33 @@ Valeur classique :
 
 ## 9. Vanishing Gradient
 
+Le phénomène de vanishing gradient apparâit lorsque les gradients deviennent extêmement faibles lors de la rétropropagation. 
+
+Les couches proches de l'entrée reçoivent alors de smises à jour quasi nulles. 
+
+Conséquences : 
+
+    * Apprentissage très lent
+    * Blocage de l'entrainement 
+    * Difficultés à entrainer des réseaux profonds
+
+Causes : 
+
+Les princiales causes sont :
+
+    * Fonction Sigmoid
+    * Fonction Tanh
+    * Réseaux 
+
+Solutions : 
+
+Les approches modernes utilisent : 
+
+    * ReLU
+    * Leaky ReLU
+    * Bacth Normalization
+    * Initialisation adaptée des poids
+
 ## 10. Hyperparamètres
 
 ## 11. Bonnes pratiques
