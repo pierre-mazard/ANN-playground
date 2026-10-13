@@ -1,29 +1,37 @@
 # Student Dropout Predictions using Multiplayer Percetrons
 
-## Overview
+## Context
 
-Prediction of academic succes using deep learning
+This porject explores the use of multiplayer perceptrons for predicting student droout and academic success.
 
 ## Objectives
 
-    * Theoretical study of MLP
-    * TensorFlow Playground experiments
-    * Keras implementation 
-    * Numpy implementation 
-    * Performance comparison
+    * Study the theory of neural networks
+    * Experiment with TensorFlow Playgournd
+    * Develop multiple Keras MLP architectures
+    * Implement a custom Numpy MLP
+    * Compare performances
 
-## Dataset
+# Dataset
 
-Predict Students' Dropout and Academic Succes (UCI)
+Predic Students' Dropout and Academic Success.
+
+Source : UCI Machine Learning Repository
 
 ## Technologies
 
     * Python
     * Numpy
     * Pandas
-    * TensrFlow
+    * TensorFlow
     * Keras
     * Scikit-Learn
+    * Matplotlib
+    * Seaborn
+
+## Repository Structure
+
+...
 
 ## Authors
 
