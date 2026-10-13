@@ -190,6 +190,23 @@ Entrée :
 
 ## 6. Rétropropagation
 
+La rétropropagation (Backpropagation) est l'algorithme permettant d'ajuster les points du réseau afin de minimiser l'erreur. 
+
+Le princie est le suivant : 
+
+    * 1. Calcul de la prédiciton 
+    * 2. Calcul de l'erreur
+    * 3. Propagation de cette erreur vers les couches précédentes
+    * 4. Mise à jour des poids
+
+Le calcul utilise la règle de dérivaiton en châine (Chain Rule) du calcul différentiel. 
+
+L'objectif étant de déterminer la contribution de cahque poids à l'erreur finale.
+
+Sans rétropropagation, le réseau serait incapable d'apprendre à partir des données.
+
+Elle constiture le mécanisme fondamental d'apprentissage des réseaux de neurones modernes.
+
 ## 7. Fonction de parte
 
 ## 8. Descente de gradient
