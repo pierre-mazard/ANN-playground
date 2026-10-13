@@ -92,13 +92,62 @@ Loss :
 
 ## 4. Fonciton d'activation 
 
+Les fonctions d'activation permettent d'introduire de la non-linéarité dans le réseau de neurones.
+Sans elles, un PMC composé de plusieurs couches serait équivalent à une simple régression linéaire.
+
+Elles déterminent comment les informations sont transformées et propagées à travers le réseau.
+
 ### 4.1 Sigmoid
+
+La fonction Sigmoid transforme une valeur réelle en une valeur comprise entre 0 et 1. 
+
+f(x) = 1 / (1 +e^(-x))
+
+Avantages : 
+
+    * Facile à interpréter comme une probabilité.
+    * Favorise la phénomène de vanishing gradient. 
 
 ### 4.2 Tanh
 
+La foncton Tangente Hyperbolique retourne une valeur comprise entre -1 et 1.
+
+Avantages : 
+
+    * Sorties centrées autour de zéro.
+    * Convergence souvent meilleur que Sigmoid.
+
+Incovénients : 
+
+    * Toujours senseible aux vanishig gradient. 
+
 ### 4.3 ReLU
 
-### 4.4 Softmax
+Rectified Linear Unit : 
+
+f(x) = max(0,x)
+
+Avantages :
+
+    * Trs raoude à calculer.
+    * Réduit le vanishing gradient. 
+    * Fcontion la plus utilisée aujourdh'ui.
+
+Inconvénients : 
+
+    * Risque de neurones morts lorsque les sorties restent constamments négatives. 
+
+### 4.4 Leaky ReLU
+
+Variante de ReLU permettant une faible pente pour les valeurs négatives afin de réduire le phénomène de neurones morts.
+
+### 4.5 Softmax
+
+La fonction Sostmax converti un vectur de valeurs en probabilité.
+
+La somme de sprobabilités est égale à 1.
+
+ELle est principalement utilisée dans les problèmes de calssification multicalsse.
 
 ## 5. Propagation avant
 
