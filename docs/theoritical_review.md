@@ -207,7 +207,31 @@ Sans rétropropagation, le réseau serait incapable d'apprendre à partir des do
 
 Elle constiture le mécanisme fondamental d'apprentissage des réseaux de neurones modernes.
 
-## 7. Fonction de parte
+## 7. Fonction de perte
+
+La fonction de perte mesure l'écart entre la prédiction du modèle et la valeur réelle.
+
+### 7.1 Binary Cross Entropy
+
+Utilisée pour la calssification binaire. 
+
+Exemple : 
+
+Réussi / Échec
+
+### 7.2 Categorical Cross Entropy
+
+Utilisée pour la classification multiclasse.
+
+Exemple : 
+
+    * Dropout
+    * Enrolled
+    * Graduate
+
+### 7.3 Mean Squared Error (MSE)
+
+Utilisée pour la régression, elle calcule la moyenne des carrés.
 
 ## 8. Descente de gradient
 
