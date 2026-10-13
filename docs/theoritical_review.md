@@ -10,11 +10,43 @@ Les PMC sont utilisés pour des tâches de classification, de régression, de re
 
 ## 2. Architecture du PMC
 
+Un Perceptron Multicouches est composé de plusieurs couches de neurones organisées de manière séquentielle.
+
+Entrée → Couche cachée(s) → Sortie
+
+Chaque neurone d'une couche est généralement connecté à tous les neurones de la couche suivante.
+
 ### 2.1 Couche d'entrée
+
+La couche d'entrée reçoit les caractéristiques (features) du jeu de données.
+
+Exemple :
+
+    * âge
+    * moyenne générale
+    * nombre d'absences
+
+Chaque caractéristique correspond à un neurone d'entrée.
 
 ### 2.3 Couches cachées
 
+Les couches cachées réalisent les transformations intermédiaires permettant au réseau d'apprendre des relations complexes.
+
+Chaque neurone calcule :
+
+z = Wx + b
+
+puis applique une fonction d'activation.
+
 ### 2.4 Couche de sortie
+
+La couche de sortie produit la prédiction finale.
+
+Classification binaire : 1 neurone + Sigmoid
+
+Classification multiclasse : N neurones + Softmax
+
+Régression : 1 neurone linéaire
 
 ## 3. PMC pour la calssification et la régression 
 
