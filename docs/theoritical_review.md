@@ -50,6 +50,46 @@ Régression : 1 neurone linéaire
 
 ## 3. PMC pour la calssification et la régression 
 
+Le choix de l'architecture dépend du type de problème.
+
+### 3.1 Classification 
+
+La classification consiste à prédire une catégorie. 
+
+Exemple : 
+
+    * Spam / Non Spam
+    * Résussite / Échec
+    / Chat / Chien 
+
+Fonctions généralement utilisées : 
+
+    * ReLU dans les couches cachées
+    * Softmax ou Sigmoid en sortie
+
+Loss : 
+
+    * Binary Cross Entropy
+    * Categorical Cross Entropy 
+
+### 3.2 Régression 
+
+La régression consiste à prédure une valeure numérique continue. 
+
+Exemples : 
+
+    * Prix immobilier
+    * Température
+    * Chiffre d'affaires
+
+Fonction de sortie : 
+    
+    * Linéraire
+
+Loss : 
+
+    * Mean Squared Error
+
 ## 4. Fonciton d'activation 
 
 ### 4.1 Sigmoid
