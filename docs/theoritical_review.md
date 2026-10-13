@@ -150,6 +150,43 @@ La somme de sprobabilités est égale à 1.
 ELle est principalement utilisée dans les problèmes de calssification multicalsse.
 
 ## 5. Propagation avant
+La propagation avant consiste à faire circuler les données d'entrées à travers les différentes couches du réseau afind 'obtenir une prédiction.
+
+Pour cahque neurone : 
+
+z= W.x + b
+
+où :
+
+    * W représente les poids
+    * x représentes les entrées
+    * b représente le biais
+
+Une fonction d'actiaition est ensuite appliquée : 
+
+a = f(z)
+
+Le résultat est transmis à la couche suivante jusqu'a la couche de sortie. 
+
+Exemple : 
+
+Entrée : 
+
+    * âge
+    * absences
+    * moyenne
+
+    ↓
+
+    Couche cachée
+
+    ↓ 
+
+    Couche cachée
+
+    ↓ 
+
+    Prédiction : Dropout / Graduate / Enrolled
 
 ## 6. Rétropropagation
 
