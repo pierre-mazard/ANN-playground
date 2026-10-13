@@ -1,2 +1,30 @@
-# ANN-playground
-Multilayer Perceptron project for predicting student dropout and academic success using Keras and a custom NumPy implementation.
+# Student Dropout Predictions using Multiplayer Percetrons
+
+## Overview
+
+Prediction of academic succes using deep learning
+
+## Objectives
+
+    * Theoretical study of MLP
+    * TensorFlow Playground experiments
+    * Keras implementation 
+    * Numpy implementation 
+    * Performance comparison
+
+## Dataset
+
+Predict Students' Dropout and Academic Succes (UCI)
+
+## Technologies
+
+    * Python
+    * Numpy
+    * Pandas
+    * TensrFlow
+    * Keras
+    * Scikit-Learn
+
+## Authors
+
+Mazard Pierre
