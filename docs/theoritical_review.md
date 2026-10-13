@@ -234,6 +234,32 @@ Exemple :
 Utilisée pour la régression, elle calcule la moyenne des carrés.
 
 ## 8. Descente de gradient
+La descente de gradient est l'algorithme d'optimisation permettant de minimiser la fonction de perte. 
+
+Après chaque itération, les poids sont modifiés dans la direction opposée au gradient. 
+
+Nouveau poids : 
+
+W = W - η * gradient
+
+où η représente le learning rate. 
+
+### 8.1 Impacte du leraning rate
+
+Un learning rate trop faible : 
+
+    * Aprentissage très lent
+
+Un learning rate trop élevé : 
+
+    * Oscillations
+    * Divergence possible
+
+Valeur classique : 
+
+    * 0.1
+    * 0.01
+    * 0.001
 
 ## 9. Vanishing Gradient
 
